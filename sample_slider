@@ -1,0 +1,40 @@
+//The pictures are connected by UL
+
+<ul id="slideshow">
+	<li>
+		<h3>TinySlideshow картинка 1</h3>
+		<span>photos/orange-fish.jpg</span>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ut urna.</p>
+		<a href="#"><img src="thumbnails/orange-fish-thumb.jpg" alt="Orange Fish"></a>
+	</li>
+	<li>
+		<h3>Sea Turtle</h3>
+		<span>photos/sea-turtle.jpg</span>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ut urna.</p>
+		<img src="thumbnails/sea-turtle-thumb.jpg" alt="Sea Turtle">
+	</li>
+</ul>
+
+//JS and HTML container
+
+<script type="text/javascript" src="compressed.js"></script>
+
+<div id="wrapper">
+	<div id="fullsize">
+		<div id="imgprev" class="imgnav" title="Previous Image"></div>
+		<div id="imglink"></div>
+		<div id="imgnext" class="imgnav" title="Next Image"></div>
+		<div id="image"></div>
+		<div id="information">
+			<h3></h3>
+			<p></p>
+		</div>
+	</div>
+	<div id="thumbnails">
+		<div id="slideleft" title="Slide Left"></div>
+		<div id="slidearea">
+			<div id="slider"></div>
+		</div>
+		<div id="slideright" title="Slide Right"></div>
+	</div>
+</div>
